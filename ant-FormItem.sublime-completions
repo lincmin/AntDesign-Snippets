@@ -1,0 +1,9 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "ant-Form", "contents": "<Form onSubmit={${1:this.handleSubmit}}>${2:}</Form>" },
+      { "trigger": "ant-FormItem", "contents": "<FormItem label=\"$1\" labelCol={{ span: $2 }} wrapperCol={{ span: $3 }}>\n $4 \n </FormItem>" },
+   ]
+}
