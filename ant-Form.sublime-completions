@@ -6,5 +6,6 @@
       { "trigger": "ant-Form", "contents": "<Form onSubmit={${1:this.handleSubmit}}>${2:}</Form>" },
       { "trigger": "ant-FormItem", "contents": "<FormItem label=\"$1\" labelCol={{ span: $2 }} wrapperCol={{ span: $3 }}>\n $4 \n </FormItem>" },
       { "trigger": "ant-getFieldDecorator", "contents": "{getFieldDecorator(\"$1\",{initialValue:\"$2\",\n rules: [{ required: ${3:true}, type:\"$4\", message: \"$5\",validator:${6:this.} ,pattern:$7}]\n})(\n$8\n)}" },
+      { "trigger": "ant-validateFields", "contents": "this.props.form.validateFields((err, values) => {\nif (!err) {\nconsole.log(\"Received values of form: \", values);\n$1\n}else{\n message.error(`$2`);\n return;\n}\n});" },
    ]
 }
