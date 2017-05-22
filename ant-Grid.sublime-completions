@@ -1,0 +1,9 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "ant-Row", "contents": "<Row gutter={${1:40}} type='${2:flex}' align='${3:top}' justify='${4:start}'>\n$5\n</Row>" },
+      { "trigger": "ant-Col", "contents": "<Col span={${1:24}} order={${2:0}} offset={${3:0}} push={${4:0}} pull={${5:0}} xs={${6:24}} sm={${7:24}} md={${8:24}} lg={${9:24}} xl={${10:24}} >\n$11\n</Col>" },
+   ]
+}
