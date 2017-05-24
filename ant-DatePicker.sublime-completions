@@ -1,0 +1,10 @@
+{
+   "scope": "source.js",
+
+   "completions":
+   [
+      { "trigger": "ant-DatePicker", "contents": "<DatePicker allowClear={${1:true}} disabled={${2:false}} size='${3:large}' onChange={${4:this.onChange}} placeholder='${5:Start}' format='${6:YYYY-MM-DD HH:mm:ss}' showTime={${7:true}} showToday={${8:true}} disabledDate={${9:this.disabledDate}} disabledTime={${10:this.disabledTime}}/>" },
+      { "trigger": "ant-MonthPicker", "contents": "<MonthPicker allowClear={${1:true}} disabled={${2:false}} size='${3:large}' onChange={${4:this.onChange}} placeholder='${5:Start}' format='${6:YYYY-MM}' disabledDate={${7:this.disabledDate}} />" },
+      { "trigger": "ant-RangePicker", "contents": "<RangePicker allowClear={${1:true}} disabled={${2:false}} size='${3:large}' onChange={${4:this.onChange}} format='${6:YYYY-MM-DD HH:mm:ss}' disabledDate={${7:this.disabledDate}} showTime={${8:true}} disabledTime={${9:this.disabledTime}} ranges={{ ${10:Today:[moment(), moment()]}}}/>" },
+   ]
+}
